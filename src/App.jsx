@@ -31,7 +31,7 @@ function App() {
         
         {/* Game 2 */}
         <div className="container-grid pb-20">
-          <a href="https://itch.io/embed-upload/10681515?color=333333" target="_blank" className="experience-container">
+          <a href="https://itch.io/embed-upload/10681777?color=333333" target="_blank" className="experience-container">
             <img src={newSticker} className="sticker" alt="" />
             <img src={popItLogo} className="pt-1 popitlogo "  alt="Maniaquarium Logo" />
           </a>
