@@ -49,7 +49,7 @@ function App() {
         <img src={youtubeIcon} className='bottom-icon' alt="YouTube Icon" /> Subscribe at <a href='https://youtube.com/@nick_joy' target='_blank'>youtube.com/@nick_joy</a>
       </p>
       <p className="read-the-docs flex items-center justify-center gap-2">
-        <img src={coffeeIcon} className='bottom-icon' alt="Ko-fi Icon" />  <a href='https://paypal.me/JoyNico' target='_blank'>Buy me a coffee</a>
+        <img src={coffeeIcon} className='bottom-icon' alt="Ko-fi Icon" />  <a href='https://ko-fi.com/nickjoytv' target='_blank'>Buy me a coffee</a>
       </p>
     </>
   )
