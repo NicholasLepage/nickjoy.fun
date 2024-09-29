@@ -31,14 +31,18 @@ function App() {
         
         {/* Game 2 */}
         <div className="container-grid pb-20">
-          <a href="https://itch.io/embed-upload/10681777?color=333333" target="_blank" className="experience-container">
+          <a href="https://itch.io/embed-upload/11601155?color=333333" target="_blank" className="experience-container">
             <img src={newSticker} className="sticker" alt="" />
-            <img src={popItLogo} className="pt-1 popitlogo "  alt="Maniaquarium Logo" />
+            <p>Breathfully: Placeholder</p>
+            {/* <img src={popItLogo} className="pt-1 popitlogo "  alt="Maniaquarium Logo" /> */}
           </a>
         </div>
 
         {/* Game 3 */}
-        <div className="experience-container">
+        <div className="container-grid pb-20">
+          <a href="https://itch.io/embed-upload/10681777?color=333333" target="_blank" className="experience-container">
+            <img src={popItLogo} className="pt-1 popitlogo "  alt="PopIt Logo" />
+          </a>
         </div>
 
       </div>
