@@ -4,6 +4,8 @@ import coffeeIcon from "/coffee-cup-svgrepo-com.svg"
 import maniaquariumLogo from "/ManiaquariumLogo.png"
 import popItLogo from "/PopItLogoForWeb.png"
 import newSticker from "/NewSticker.png"
+import breathfullyLogo from "/Breathfully_Title_V2.png"
+
 import './App.css'
 
 import Header from './components/Header'
@@ -24,8 +26,8 @@ function App() {
       <div className="container-grid pb-20">
         {/* Game 1 */}
         <div className="container-grid pb-20">
-          <a href="https://itch.io/embed-upload/10633043?color=333333" target="_blank" className="experience-container">
-              <img src={maniaquariumLogo} className="pt-1 "  alt="Maniaquarium Logo" />
+          <a href="https://itch.io/embed-upload/10633043?color=333333" target="_blank" className="experience-container z-10">
+              <img src={maniaquariumLogo} className="maniaquariumlogo"  alt="Maniaquarium Logo" />
           </a>
         </div>
         
@@ -33,15 +35,14 @@ function App() {
         <div className="container-grid pb-20">
           <a href="https://itch.io/embed-upload/11601155?color=333333" target="_blank" className="experience-container">
             <img src={newSticker} className="sticker" alt="" />
-            <p>Breathfully: Placeholder</p>
-            {/* <img src={popItLogo} className="pt-1 popitlogo "  alt="Maniaquarium Logo" /> */}
+            <img src={breathfullyLogo} className="breathfullylogo"  alt="Maniaquarium Logo" />
           </a>
         </div>
 
         {/* Game 3 */}
         <div className="container-grid pb-20">
           <a href="https://itch.io/embed-upload/10681777?color=333333" target="_blank" className="experience-container">
-            <img src={popItLogo} className="pt-1 popitlogo "  alt="PopIt Logo" />
+            <img src={popItLogo} className="popitlogo "  alt="PopIt Logo" />
           </a>
         </div>
 

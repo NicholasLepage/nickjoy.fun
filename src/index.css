@@ -110,6 +110,7 @@ button:focus-visible {
   height: 150px;
   width: 300px;
   border-radius: 31px;
+  z-index: 10;
 
   box-shadow: #1a1a1a 0px 0px 10px;  /* Adjust shadow properties */
   transition: transform 0.2s ease;
@@ -120,7 +121,21 @@ button:focus-visible {
 }
 
 .popitlogo {
-  border-radius: 31px;
+  border-radius: 26px;
+  z-index: 1;
+}
+
+.breathfullylogo {
+  border-radius: 26px;
+}
+
+.maniaquariumlogo {
+  padding-top: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 26px;
+  scale: 1.06;
+  z-index: 1;
 }
 
 .sticker {
